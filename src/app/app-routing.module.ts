@@ -7,6 +7,8 @@ const routes: Routes = [
   { path: 'later', loadChildren: './later/later.module#LaterPageModule' },
   { path: 'done', loadChildren: './done/done.module#DonePageModule' },
   { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
+  { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
+  { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
 ];
 
 @NgModule({
